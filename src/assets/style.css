@@ -1,0 +1,671 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+body {
+    background-color: #033249;
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    padding: 0px !important;
+}
+
+div#col-banner {
+    padding: 0px !important;
+}
+
+div.ebiza-logo {
+    position: absolute;
+    max-width: 10em;
+}
+
+div.ebiza-logo a:hover {
+    background-color: transparent;
+}
+
+div.banner-title {
+    position: absolute;
+    margin-top: 20em;
+    justify-content: center;
+    max-width: 45em;
+}
+
+div.banner-subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+div.banner-subtitle p {
+    font-size: 1em;
+    max-width: 12em;
+    margin-left: 7.5em;
+}
+
+div.banner-title a {
+    background-color: #ff6100;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    max-width: 15em;
+    font-size: 1.2em;
+    margin-left: 6em;
+}
+
+div.social-medias-banner {
+    position: absolute;
+    right: 0;
+    max-width: 8em;
+    margin-top: 1em;
+}
+
+div.social-medias-banner i {
+    font-size: 1.5em;
+    color: #e05501;
+    transition: all .5s;
+}
+
+div.social-medias-banner a:hover {
+    background-color: transparent;
+}
+
+div.social-medias-banner i:hover {
+    color: #eee;
+}
+
+div.main-menu .col-sm {
+    padding: 0px;
+}
+
+nav.navbar {
+    padding: 0px;
+}
+
+.navbar-expand-sm, .navbar-collapse {
+    justify-content: center;
+}
+
+ul.navbar-nav {
+    align-items: center;
+}
+
+a.nav-link {
+    color: #ff6100;
+    padding: 8px 6px !important;
+    transition: all 0.6s;
+}
+
+a.active {
+    color: #fff;
+    background: #ff6100;
+}
+
+a:hover {
+    color: #e05501;
+    background: #ddd;
+}
+
+span.navbar-toggler-icon, button.navbar-toggler {
+    color: #fff;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+
+.content .col-sm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content h5#work-title, .social-proof-title h5#clients-title, #what-we-do h5 {
+    margin-top: 1em;
+    color: #fff;
+}
+
+.content h5#work-title:after, .social-proof-title h5#clients-title:after, 
+#what-we-do h5:after {
+    content: "";
+    display: block;
+    border-bottom: 0.2em solid #ff6100;
+    padding-top: 0.2em;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#what-we-do h5:after {
+    width: 10%;
+}
+
+#what-we-do h5 {
+    margin-top: 10em;
+    margin-bottom: 2em;
+}
+
+#what-we-do p {
+    color: #ddd;
+}
+
+.content h3 {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 1em;
+    color: #fff;
+}
+
+.content-column p {
+    font-size: 14px;
+}
+
+.content-column .card {
+    border: none;
+    background-color: transparent;
+    color: #ddd;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.column-left, .column-right {
+    text-align: justify;
+}
+
+.column-center:after {
+    content: "";
+    display: block;
+    border-bottom: 40em solid #aaa;
+    width: 0.5%;
+    margin: 0 auto;
+}
+
+.column-right {
+    position: absolute;
+    margin-right: 15em;
+    min-width: 250px;
+}
+
+.column-left {
+    position: absolute;
+    min-width: 250px;
+    margin-left: 15em;
+}
+
+.card-column-right {
+    position: absolute;
+}
+
+.card-column-left {
+    position: absolute;
+}
+
+.card-column-left + div.card-column-left {
+    margin-top: 25em;
+}
+
+.column-right > div.card-column-right {
+    margin-top: 12em;
+}
+
+.card-column-right + div.card-column-right {
+    margin-top: 38em;
+}
+
+.non-visible-card {
+    display: none;
+}
+
+.numbers {
+    position: absolute;
+}
+
+.number {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ff6100;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number p {
+    text-align: center;
+    margin: 0 !important;
+}
+
+div.number + div {
+    margin-top: 10em;
+}
+
+.client-form {
+    margin-top: 10em;
+    background-color: #292d33;
+}
+
+.client-form p {
+    color: #ddd;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 1em;
+}
+
+h5#sales-title {
+    color: #ff6100;
+    max-width: 150px;
+    margin-top: 1em;
+}
+
+h5#sales-title:before {
+    content: "";
+    display: block;
+    border: 0.05em solid #ff6100;
+}
+
+.form-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form-area button#send-btn {
+    background-color: #ff6100;
+    color: #fff;
+}
+
+button#send-btn:hover {
+    background-color: #e05501;
+    color: #aaa;
+}
+
+.img-sales {
+    background-color: #ff6100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-sales img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.social-proofs {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.social-proofs img {
+    max-width: 250px;
+}
+
+footer {
+    background-color: #000;
+}
+
+.footer-bottom {
+    padding: 1em 2em;
+}
+
+.footer-bottom p, ul li {
+    color: #9f9f9f;
+    font-size: 14px;
+}
+
+.footer-bottom ul li i {
+    padding-right: 0.5em;
+}
+
+.footer-bottom h5 {
+    color: #ddd;
+}
+
+.social-medias li {
+    display: inline-block;
+}
+
+.social-medias li i {
+    color: #ff6100;
+    font-size: 2em;
+    padding: 0 !important;
+    transition: all 0.3s;
+}
+
+.social-medias li a:hover {
+    background-color: transparent;
+}
+
+.social-medias li i:hover {
+    color: #e05501;
+    transform: scale(1.2, 1.2);
+}
+
+.footer-developer-info {
+    color: #ddd;
+}
+
+.footer-developer-info a {
+    color: #ddd;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.footer-developer-info a:hover {
+    color: #aaa;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+#what-we-do .col-sm {
+    flex-direction: column;
+}
+
+.contacts {
+    margin-top: 2em;
+    margin-bottom: 5em;
+    padding-bottom: 5em;
+}
+
+.contacts h4 {
+    text-align: center;
+    color: #ddd;
+}
+
+.contacts .col-sm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts .col-sm div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7em;
+    width: 7em;
+    background-color: #359ba1;
+    border-radius: 50%;
+    margin-bottom: 2em;
+}
+
+.contacts .col-sm i {
+    font-size: 4em;
+    color: #ddd;
+}
+
+.contacts .col-sm h5 {
+    color: #ddd;
+}
+
+.contacts .col-sm p {
+    color: #bbb;
+}
+
+.contacts h4 {
+    margin-bottom: 2em;
+}
+
+.contacts .whatsapp a {
+    text-decoration: none;
+    color: #bbb;
+    transition: all .5s;
+}
+
+.contacts .whatsapp p a {
+    text-decoration: underline;
+}
+
+.contacts .whatsapp p a:hover {
+    background-color: transparent;
+    color: #eee;
+}
+
+.contacts .whatsapp div a:hover {
+    background-color: transparent;
+}
+
+.contacts .whatsapp div {
+    transition: all .5s;
+}
+
+.contacts .whatsapp div:hover {
+    background-color: #25D366;
+    cursor: pointer;
+
+}
+
+@media only screen and (min-width: 768px) {
+    div.card.card-column-right:nth-child(4) {
+        margin-top: 37em;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    div.banner-title {
+        margin-top: 14em;
+        margin-left: 0em;
+    }
+
+    div.banner-subtitle {
+        margin-left: -1em;
+    }
+
+    div.social-medias-banner {
+        max-width: 7em;
+        right: 9em;
+    }
+
+    input {
+        max-width: 13.5em;
+    }
+
+    .social-proofs img {
+        max-width: 200px;
+    }
+
+    .content h3 {
+        margin-bottom: 2em;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .column-left {
+        margin-left: 8em;
+    }
+
+    .column-right {
+        margin-right: 8em;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    div.social-medias-banner {
+        right: 1em;
+    }
+
+    .card-column-right + div.card-column-right {
+        margin-top: 0;
+    }
+
+    .content-column.column-left {
+        display: none;
+    }
+
+    .col-sm.column-center {
+        position: relative;
+        left: -15em;
+    }
+
+    .column-right {
+        margin-right: 35em;
+    }
+
+    .card-column-right {
+        position: relative;
+    }
+
+    .column-right > div.card-column-right {
+        margin-top: 0;
+    }
+    
+    .card-column-right + div.card-column-right {
+        margin-top: 0;
+    }
+
+    .non-visible-card {
+        display: flex;
+    }
+
+    div.banner-title {
+        margin-top: 13em;
+        margin-left: -4em;
+    }
+
+    div.banner-subtitle p {
+        font-size: .8em;
+        max-width: 17em;
+        margin-left: 9em;
+    }
+
+    div.card-column-right:nth-child(4) {
+        margin-top: 5em !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    div.banner-title {
+        margin-top: 10em;
+    }
+
+    .col-sm.img-sales {
+        padding: 1em;
+        max-width: 10em;
+    }
+
+    input {
+        max-width: 11em;
+    }
+
+    .client-form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-area button#send-btn {
+        font-size: .8em;
+    }
+
+    .social-proofs #client3 img {
+        margin-top: 2em;
+    }
+
+    .ebiza-logo {
+        max-width: 8em !important;
+    }
+
+}
+
+@media only screen and (max-width: 540px) {
+    .column-right {
+        margin-right: 5em;
+        margin-top: -40em;
+    }
+
+    .card-column-right {
+        margin-left: 14em;
+    }
+
+    .social-proofs img {
+        margin-top: 2em;
+    }
+
+
+    .col-sm.column-center {
+        left: -5em;
+    }
+
+    div.card-column-right:nth-child(4) {
+        margin-top: 5em;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    div.banner-title {
+        margin-top: 6em;
+    }
+
+    div.banner-title a {
+        font-size: .6em;
+        margin-left: 13em;
+    }
+
+    div.banner-subtitle {
+        margin-left: -2em;
+    }
+
+    div.banner-subtitle p {
+        font-size: 0.5em;
+        margin-left: 15em;
+        margin-top: 2em;
+        margin-bottom: 0;
+    }
+
+    .ebiza-logo {
+        max-width: 6em !important;
+    }
+
+    div.social-medias-banner {
+        right: -1.2em;
+    }
+
+    div.social-medias-banner i {
+        font-size: 1.2em;
+    }
+
+    .column-right {
+        margin-right: 1em;
+    }
+
+    .col-sm.img-sales {
+        max-width: 8em;
+    }
+
+    .card-column-right {
+        margin-left: 18em;
+        font-size: 0.4em;
+    }
+
+}
+
+@media only screen and (max-width: 300px) {
+    .card-column-right {
+        margin-left: 23em;
+        font-size: 0.2em;
+    }
+
+    div.banner-title {
+        margin-top: 5em;
+        margin-left: -6em;
+    }
+
+    div.banner-subtitle p {
+        font-size: 0.4em;
+        margin-left: 20em;
+    }
+
+    
+
+    
+    
+
+}
